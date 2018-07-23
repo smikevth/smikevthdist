@@ -1,0 +1,1 @@
+requirejs.config({baseUrl:'js/vendor',paths:{modules:'../modules',helpers:'../helpers'},shim:{'modernizr-custom':{exports:'Modernizr'},'cssua':{exports:'cssua'}}});requirejs(['jquery','cssua','modules/intro'],function($,cssua,Intro){Intro.init()});
